@@ -1,0 +1,72 @@
+@font-face {
+    font-weight: 600;
+    font-family: InterM;
+    src: url("../../fonts/Inter/Inter-Medium.ttf");
+}
+@font-face {
+    font-weight: 400;
+    font-family: InterT;
+    src: url("../../fonts/Inter/Inter-Thin.ttf");
+}
+@font-face {
+    font-size: 400;
+    font-family: InterL;
+    src: url("../../fonts/Inter/Inter-Light.ttf");
+}
+@font-face {
+    font-weight: 500;
+    font-family: InterR;
+    src: url("../../fonts/Inter/Inter-Regular.ttf");
+}
+
+html, body {
+    height: 100%;
+    overflow: hidden;
+  }
+.out{
+    width: 100%;
+    height: 812px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .d{
+        width: 75%;
+        height: 200px;
+        border: 2px solid rgba(16, 143, 44, 1);
+        border-radius: 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+    }
+    h2{
+        font-family: InterR;
+        height: 1px;
+        font-size: 25px;
+
+    }
+    .fl{
+        margin-top: 30px;
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .ss{
+        
+        width: 40%;
+        button{
+            width: 100%;
+        }
+    }
+    button{
+        cursor: pointer;
+        border-radius: 20px;
+        width: 40%;
+        height: 40px;
+        border: 2px solid rgb(110, 110, 110);
+    }
+    button:hover{
+        background-color: rgb(70, 70, 70);
+    }
+}

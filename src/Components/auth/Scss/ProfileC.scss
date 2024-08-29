@@ -1,0 +1,105 @@
+@font-face {
+    font-weight: 600;
+    font-family: InterM;
+    src: url("../../fonts/Inter/Inter-Medium.ttf");
+}
+@font-face {
+    font-weight: 400;
+    font-family: InterT;
+    src: url("../../fonts/Inter/Inter-Thin.ttf");
+}
+@font-face {
+    font-size: 400;
+    font-family: InterL;
+    src: url("../../fonts/Inter/Inter-Light.ttf");
+}
+@font-face {
+    font-weight: 500;
+    font-family: InterR;
+    src: url("../../fonts/Inter/Inter-Regular.ttf");
+}
+
+.co{
+.hhe{
+    display: flex;
+    margin-top: 40px;
+    img{
+        width: 120px;
+    }
+    .flexBox{
+        margin-left: 10px;
+        .flexFBox{
+            width: 205px;
+            height: 32px;
+            display: flex;
+            h2{
+                font-size: 20px;
+                font-family: InterM;
+            }
+            #sec{
+                margin-left: 20px;
+            }
+        }
+        h3{
+            font-family: InterR;
+            font-size: 14px;
+            color: rgba(128, 128, 128, 1);
+        }
+        .shk{
+            display: flex;
+            border: 1px black solid;
+            height: 20px;
+            width: 100%;
+            border-radius: 8px;
+            p{
+            text-align: right;
+            position: absolute;
+            }
+        }
+    }
+}
+main{
+    margin-top: 10px;
+    padding-left: 20px;
+    img{
+        width: 20px;
+    }
+    .class{
+        height: 50px;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: black;
+        p{
+            font-family: InterM;
+            margin-left: 20px;
+            font-size: 16px;
+        }
+    }
+    .class:hover{
+        border-top: 1px solid rgb(107, 107, 107);
+        border-bottom: 1px solid rgb(107, 107, 107);
+
+    }
+}
+footer{
+    padding-top: 10px;
+    background-color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;   
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid rgba(227, 227, 227, 1);
+    img{
+        cursor: pointer;
+    }
+    .noP{
+        cursor: default;
+    }
+}
+}

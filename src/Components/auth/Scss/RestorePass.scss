@@ -1,0 +1,91 @@
+@font-face {
+    font-weight: 600;
+    font-family: InterM;
+    src: url("../../fonts/Inter/Inter-Medium.ttf");
+}
+@font-face {
+    font-weight: 400;
+    font-family: InterT;
+    src: url("../../fonts/Inter/Inter-Thin.ttf");
+}
+@font-face {
+    font-size: 400;
+    font-family: InterL;
+    src: url("../../fonts/Inter/Inter-Light.ttf");
+}
+@font-face {
+    font-weight: 500;
+    font-family: InterR;
+    src: url("../../fonts/Inter/Inter-Regular.ttf");
+}
+
+.restore{
+    form{
+    .error{
+        font-family: InterR;
+        margin-left: 20px;
+        position: absolute;
+        color: red;
+        line-height: 2px;
+    }
+    input{
+        padding-left: 50px;
+        cursor: pointer;
+        height: 60px;
+        width: 270px;
+        margin-left: 16px;
+        margin-top: 33px;
+        color: rgba(154, 154, 154, 1);
+        border: 2px solid rgba(209, 209, 209, 1);
+        border-radius: 10px;
+        background-repeat: no-repeat;
+        background-position: left 11px center;
+        background-image: url("../../assets/file2.png");
+        background-size: 30px;
+    }
+    input:focus{
+        color: black;
+    }
+    button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 327px;
+        height: 60px;
+        background-color: rgba(16, 143, 44, 1);
+        border: none;
+        margin-top: 50px;
+        border-radius: 10px;
+        font-family: InterM;
+        line-height: 28px;
+        font-size: 16px;
+        margin-left: 16px;
+        cursor: pointer;
+        text-decoration: none;
+        color: rgba(255, 255, 255, 1);
+    }
+    .Tup{
+        margin-top: 100px;
+    }
+}
+.regBut{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 327px;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid rgba(16, 143, 44, 1);
+    margin-top: 20px;
+    border-radius: 10px;
+    font-family: InterM;
+    line-height: 28px;
+    font-size: 18px;
+    margin-left: 16px;
+    cursor: pointer;
+    .Nav{
+        text-decoration: none;
+        color: rgba(18, 18, 18, 1);
+    }
+}
+}
